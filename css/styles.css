@@ -1,0 +1,82 @@
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== Margin Bottom ==========*/
+/*========== z index ==========*/
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+/* Responsive typography */
+/*=============== BASE ===============*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  background: #0d192b;
+  color: #8bacda;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+  padding: 3.75rem 0 2rem;
+}
+
+.section__title {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 350px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden;
+  /*For animation*/
+}/*# sourceMappingURL=styles.css.map */
