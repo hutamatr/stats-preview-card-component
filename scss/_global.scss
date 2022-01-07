@@ -3,19 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-/* Responsive typography */
-@media screen and (min-width: 992px) {
-  :root {
-    $biggest-font-size: 4rem;
-    $h1-font-size: 2.25rem;
-    $h2-font-size: 1.5rem;
-    $h3-font-size: 1.25rem;
-    $normal-font-size: 1rem;
-    $small-font-size: 0.875rem;
-    $smaller-font-size: 0.813rem;
-  }
-}
-
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -29,7 +16,6 @@ html {
 
 body {
   font-family: $body-font;
-  font-size: $small-font-size;
   background: $main-background;
   color: $main-paragraph;
 }
@@ -55,15 +41,9 @@ img {
   padding: 3.75rem 0 2rem;
 }
 
-.section__title {
-  font-size: $h2-font-size;
-  margin-bottom: $mb-2;
-  text-align: center;
-}
-
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 375px;
+  max-width: 60.5rem;
   margin-left: $mb-1-5;
   margin-right: $mb-1-5;
 }

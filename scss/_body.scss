@@ -4,19 +4,40 @@
     border-radius: 0.5rem;
   }
 
-  &__img {
-    &--1 {
+  &__image {
+    position: relative;
+    cursor: pointer;
+
+    &--img {
       border-radius: 0.5rem 0.5rem 0 0;
+      display: block;
+      width: 100%;
+      height: auto;
+      backface-visibility: hidden;
+    }
+
+    &--filter {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0.5;
+      transition: 0.5s ease;
+      background-color: $accent;
+      border-radius: 0.5rem;
     }
   }
 
   &__data {
-    padding: 1.5rem;
+    padding: $mb-2;
     text-align: center;
-    row-gap: 1rem;
+    row-gap: $mb-1;
 
     &--titles {
-      font-size: $normal-font-size;
+      font-size: $biggest-font-size;
       font-weight: $font-bold;
     }
 
@@ -25,36 +46,34 @@
     }
 
     &--description {
-      font-size: $smaller-font-size;
-      line-height: 1.2rem;
+      font-size: $small-font-size;
+      color: $stat-headings;
+      line-height: $mb-1-5;
     }
   }
 
   &__results {
-    font-size: $small-font-size;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1rem;
-    padding: 0 1rem 1.5rem;
+    row-gap: $mb-2;
+    padding: 0 2rem 2.5rem;
 
     &--1,
     &--2,
     &--3 {
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      gap: $mb-0-25;
+      gap: $mb-0-5;
     }
 
     &--number {
-      font-size: $small-font-size;
       font-weight: $font-bold;
     }
     &--desc {
-      font-size: 0.55rem;
+      font-size: $small-font-size;
       font-weight: $font-medium;
       font-family: $body-font-alt;
+      color: $stat-headings;
     }
   }
 }
