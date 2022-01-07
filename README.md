@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/statspreviewcardcomponent-with-scss-flexbox-grid-mobilefirst-bem-fX-NDoeGR)
+- Live Site URL: [Demo](https://hutamatr.github.io/stats-preview-card-component/)
 
 ## My process
 
