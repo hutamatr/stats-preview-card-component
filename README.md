@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![ScreenShot 1](https://github.com/hutamatr/nft-preview-card-component/blob/master/images/mobile.png)
+![ScreenShot 1](https://github.com/hutamatr/stats-preview-card-component/blob/master/images/mobile.png)
 
-![ScreenShot 2](https://github.com/hutamatr/nft-preview-card-component/blob/master/images/dekstop.png)
+![ScreenShot 2](https://github.com/hutamatr/stats-preview-card-component/blob/master/images/dekstop.png)
 
 ### Links
 
