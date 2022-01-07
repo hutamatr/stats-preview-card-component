@@ -8,11 +8,14 @@
         'content-1 image'
         'content-2 image';
       margin: 0 2rem;
+      position: relative;
     }
 
     &__image {
       grid-area: image;
       background-image: url(../images/image-header-desktop.jpg);
+      background-position: top;
+      background-size: cover;
       border-radius: 0 0.5rem 0.5rem 0;
 
       &--img {
