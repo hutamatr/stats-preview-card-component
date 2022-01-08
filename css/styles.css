@@ -149,7 +149,42 @@ img {
 .footer__card {
   text-align: center;
 }
+.footer__img {
+  width: 0.9rem;
+  cursor: pointer;
+  -webkit-animation: love 2s infinite;
+          animation: love 2s infinite;
+}
 
+@-webkit-keyframes love {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes love {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 @media screen and (min-width: 768px) {
   .stats {
     margin: 5rem auto;
