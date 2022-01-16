@@ -1,6 +1,10 @@
 .footer {
   &__card {
     text-align: center;
+
+    & a {
+      color: $stat-headings;
+    }
   }
 
   &__img {

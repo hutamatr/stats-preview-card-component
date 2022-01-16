@@ -149,6 +149,9 @@ img {
 .footer__card {
   text-align: center;
 }
+.footer__card a {
+  color: rgba(255, 255, 255, 0.6);
+}
 .footer__img {
   width: 0.9rem;
   cursor: pointer;
